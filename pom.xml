@@ -7,6 +7,7 @@
   <inceptionYear>2008</inceptionYear>
   <modules>
     <module>spark</module>
+    <module>scala</module>
   </modules>
   <properties>
     <scala.library.version>2.12.8</scala.library.version>
