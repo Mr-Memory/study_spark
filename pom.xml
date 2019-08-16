@@ -8,9 +8,10 @@
   <modules>
     <module>spark</module>
     <module>scala</module>
+    <module>redis</module>
   </modules>
   <properties>
-    <scala.library.version>2.12.8</scala.library.version>
+    <scala.library.version>2.12</scala.library.version>
     <scala.version>2.12.8</scala.version>
   </properties>
 

@@ -1,11 +1,11 @@
 package com.demo.study
 
+import org.apache.spark.sql.SparkSession
+
 /**
  * Hello world!
  *
  */
-object App {
-  def main(args: Array[String]): Unit = {
-    println( "Hello World!" )
-  }
+trait LocalSparkSession {
+ @transient val spark = SparkSession.builder()
 }
