@@ -9,6 +9,7 @@
     <module>spark</module>
     <module>scala</module>
     <module>redis</module>
+    <module>flink</module>
   </modules>
   <properties>
     <scala.library.version>2.12</scala.library.version>
